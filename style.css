@@ -1,0 +1,191 @@
+#in,#three,#four{
+    display: none;
+}
+img{
+    width: 40px;
+    height: 40px;
+    margin: 5% 38%;
+}
+.card{
+    width: 40%;
+    margin: 5%;
+}
+.body,.pric{
+    display: flex;
+    flex-direction: row;
+}
+h4,h5{
+    font-size: 15px;
+}
+h5{
+    margin-left: 40%;
+}
+.x{
+    margin-left: 25%;
+}
+.avail{
+    margin: 5% 10%;
+    margin-bottom: 0%;
+}
+#more{
+    display: none;
+}
+.add{
+    color: rgb(28, 196, 112);
+    border-color: rgb(28, 196, 112);
+    border-radius: 5px;
+    height: 30px;
+}
+.y{
+    width: 50%;
+}
+.form-control{
+    border-color: white;
+    background-color: rgb(252, 246, 218);
+}
+#input2{
+    height: 50px;
+}
+.cost{
+    margin-right: 80%;
+    margin-bottom: -50px;
+}
+#total{
+    margin-right: 52%;
+    margin-top: 13px;
+}
+#scroll{
+
+  overflow-x: hidden; 
+  overflow-y: auto; 
+  max-height: 340px;
+}
+.come{
+    margin-left: 0%;
+    margin-top: -25px;
+    margin-bottom: 60px;
+    border-radius: 10px;
+    z-index: -1;
+    
+}
+#come1 #remove{
+    display: none;
+}
+.cat{
+    padding-top: 20px;
+}
+#input1,#input2{
+    width: 70%;
+}
+form{
+    margin: 10px 3%;
+    border: 1px solid rgb(206, 188, 188);
+    padding: 5%;
+    margin-top: 50px;
+}
+.main{
+    margin: 20% 40%;
+}
+.back{
+    color: blue;
+    border: none;
+}
+.remove{
+   
+    border-radius: 15px;
+    display: none;
+    margin-bottom: -100px;
+    margin-left: 350px;
+    
+}
+
+.no{
+    margin-right: 0%;
+}
+.r{
+    display: none;
+    float: right;
+}
+#msg{
+    display: none;
+    z-index: 2;
+    margin-left: 60%;
+    margin-top: -10%;
+    
+    width: 20%;
+    height: 40%;
+    padding: 20px 20px;
+    font-size: 10px;
+    background-color: teal;
+    border-radius: 10px;
+    }
+    .h{
+        
+        display: none;
+        z-index: 3;
+    }
+    
+
+.color{
+    background-color: rgb(115, 202, 115);
+}
+.hov{
+    z-index: 1;
+}
+#fr{
+    margin: 10px 20px;
+    display: none;
+}
+.icon{
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 30px;
+    height: 30px;
+    margin-bottom: -0px;
+    margin-top: -5px;
+}
+#avi{
+    display: none;
+    transition-delay: 10s;
+}
+a{
+    margin-right: 0%;
+}
+.modal-title{
+    margin-left: 30%;
+}
+#new{
+    border-radius: 10px;
+}
+@media (max-width: 576px){
+    .main{
+        margin: 80% 23%;
+    }
+    .x{
+        font-size: 10px;
+    }
+    .cost{
+        font-size: 10px;
+    }
+    #total{
+        margin-right: 65%;
+        margin-top: 18px;
+    }
+    .add{
+        font-size: 10px;
+    }
+    .last{
+        font-size: 15px;
+        margin-left: 0;
+    }
+    .remove{
+   
+        border-radius: 15px;
+        display: none;
+        margin-bottom: -80px;
+        margin-left: 170px;
+        font-size: 10px;
+        
+    }
+}
+
